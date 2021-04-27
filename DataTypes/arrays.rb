@@ -1,15 +1,20 @@
-# an array is a way to store multiple like values
-# TO CREATE AN array
-friends = Array.new
+#* ARRAYS
+# *an array is a way to store multiple like values
 
-# You can find the value at indexes just like javascript
+#? TO CREATE AN array with no values.
+friends = Array.new
+#? To Create an array with values
+cars = Array["Telluride", "CX5", "G Wagon", "Triumph"]
+
+
+# !You can find the value at indexes just like javascript
 #   friends[1] = Kaylie
-# BUT you can find values counting from the end of the array moving backwards. 
+#! BUT you can find values counting from the end of the array moving backwards. 
 #   friends[-1] = 'Bash'
 #   friends[-2] = 'Kaylie'
-# YOU can also find a range of values 
+#! YOU can also find a range of values 
 #   friends[0, 2]
-# this will do from index 0 up to BUT NOT INCLUDING index 2
+#! this will do from index 0 up to BUT NOT INCLUDING index 2
 
 
 # You can use push just like in javascrip
@@ -24,4 +29,4 @@ puts friends.reverse()
 puts friends.sort()
 
 
-puts friends
+puts friends, cars
