@@ -1,0 +1,1 @@
+const hey = () => console.log('hello')
