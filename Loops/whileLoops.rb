@@ -9,8 +9,6 @@ end
 
 
 #* Guessing Game
-
-
 secret_word = "Guitar"
 guess = ""
 count = 0
