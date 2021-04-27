@@ -1,6 +1,11 @@
 #* Case Expressions
 #* A type of if else statement that checks multiple conditions. 
 
+
+#!Use when you hace a lot of different conditions
+
+
+#? Writing a case expression
 def getDayName(abv)
     day_name = ""
     case abv.downcase()
