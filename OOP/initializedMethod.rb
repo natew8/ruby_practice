@@ -24,3 +24,4 @@ end
 book1 = Book.new("Harry Potter", "JK Rowling", 300)
 book2 = Book.new("LOTR", "Tolkein", 800)
 
+
