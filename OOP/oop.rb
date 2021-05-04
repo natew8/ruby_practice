@@ -84,7 +84,7 @@ class Super_Villian < Super_Human
         puts "Die!!"
     end
     def world_dominance
-        puts "I #{name} will take over the world
+        puts "I #{name} will take over the world"
     end
 end
 class Super_Hero < Super_Human
